@@ -127,12 +127,16 @@ a {
 	text-decoration: none;
 }
 
-.registry {
-	display: block;
-	width: 100%
-	padding: 22em;
-	margin: 0 auto;
+#targetregistry {
+	width: 100%;
+	max-width: 350px;
+	margin: 1em 0em;
 }
+
+#macysregistry {
+	margin: 1em 0em;
+}
+
 
 @media only screen and (max-width: 1180px) {
 	.left {
