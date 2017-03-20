@@ -33,7 +33,7 @@ width: 40%
 }
 
 /*END OF CLEARFIX*/
-.names {
+/*.names {
 	margin: 0 auto;
 	width: 50%;
 	padding: 1em;
@@ -41,13 +41,13 @@ width: 40%
 
 #names {
 	width: 100%;
-}
+}*/
 
 .hero {
-	margin: 0 auto 1em auto;
+	margin: 0 auto 2em auto;
 	width: 80%;
 	padding: 1em;
-	border: solid 3px #EFDBB2;
+	border: solid 3px #D1A14A;
 }
 
 #hero {
@@ -57,8 +57,8 @@ width: 40%
 .button {
 	margin: 1em;
 	padding: 1em;
-	background: #EFDBB2;
-	color: #D32E5E;
+	background: #E65F70;
+	color: #FFF;
 	text-decoration: none;
 	border-style: solid;
 	border-radius: 1em;
@@ -85,37 +85,48 @@ body {
 	background-repeat: no-repeat;
 }
 
+a:hover {
+	background: #D32E5E;
+}
+
 h1 {
-	font-family: 'Josefin Sans'; Arial; Sans-serif;
-	font-size: 3.5em;
+	font-family: 'Playfair Display'; serif;
+	font-size: 5em;
+	letter-spacing: .15em;
 	text-align: center;
-	padding: .5em;
-	font-weight: 700;
-	color: #000;
+	padding: 1em 0em.5em 0em;
+	color: #D1A14A;
 	text-decoration: none;
+}
+
+#y {
+	font-style: italic;
 }
 
 h2 {
 	font-family: 'Josefin Sans'; Arial; Sans-serif;
-	font-size: 1.5em;
+	font-size: 1.25em;
+	font-variant: small-caps;
+	font-weight: 100;
 	text-align: center;
+	line-height: 1.25em;
 	padding: 0em 0em .5em 0em;
-	color: #D32E5E;
+	color: #000000;
 }
 
 h3 {
 	font-family: 'Josefin Sans'; Arial; Sans-serif;
-	font-size: 1.5em;
+	font-size: 1.25em;
+	line-height: 1.25em;
 	padding: 0em 0em .5em 0em;
-	font-variant: small-caps;
-	color: #D32E5E;
+	color: #000;
 }
 
 p {
-	font-family: 'Raleway'; Arial; Sans-serif;
-	font-size: 1em;
+	font-family: 'Josefin Sans'; Arial; Sans-serif;
+	font-size: 1.1em;
 	line-height: 1.1em;
-	color: #D32E5E;
+	color: #000;
 }
 
 ul {
@@ -148,6 +159,11 @@ a {
 	margin: 0 10% 0 0;
 	width: 40%;
 	}
+
+	h1 {
+		font-size: 4em;
+		padding: 1em 0em.5em 0em;
+	}
 }
 
 @media only screen and (max-width: 1015px) {
@@ -158,6 +174,10 @@ a {
 	.right {
 	margin: 0 5% 0 0;
 	width: 40%;
+	}
+
+	h1 {
+		padding: 1em 0em.5em 0em;
 	}
 }
 
@@ -174,8 +194,7 @@ a {
 
 	h1 {
 	font-size: 2.5em;
-	padding: 2em 0em .5em 0em;
-	font-weight: 500;
+	padding: 1em 0em.5em 0em;
 	}
 
 	h2 {
@@ -213,7 +232,7 @@ a {
 	}
 
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 480px) {
 	.left {
 	margin: 0 auto;
 	width: 50%;
@@ -227,4 +246,13 @@ a {
 	float: none;
 	padding: 1em;
 	text-align: center;
+	}
+
+	h1 {
+	font-size: 2em;
+	padding: 1.5em 0em.5em 0em;
+	}
+
+	h2 {
+		font-size: 1em;
 	}
